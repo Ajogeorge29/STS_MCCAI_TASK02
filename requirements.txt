@@ -1,0 +1,10 @@
+torch
+numpy
+open3d
+scikit-learn
+scipy
+tqdm
+matplotlib
+pandas
+pycpd
+nibabel
