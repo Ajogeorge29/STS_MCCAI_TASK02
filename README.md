@@ -22,6 +22,8 @@ Two-Stage Semi-Supervised Training Protocol
 
 In the first stage, the model is trained using only the available labeled scan pairs to establish an initial registration baseline. In the second stage, this trained model is used to produce pseudo-labels for the unlabeled data, after which low-confidence predictions are filtered out. The model is then fine-tuned on the mixture of true labels and reliable pseudo-labels. This strategy helps mitigate the limited availability of annotated CBCT–IOS data in real clinical environments.
 
+![Figure 2](figure.jpg)
+
 ---
 
 ## Environment Setup
@@ -49,4 +51,4 @@ sh predict.sh
 
 ## Contact
 
-For questions or clarifications, please open an issue in this repository.
+For questions or clarifications, please contact drajo_george@DiceMed.in
